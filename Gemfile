@@ -28,6 +28,7 @@ gem 'devise'
 gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'rails_12factor', group: :production
+gem 'figaro'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -36,6 +37,8 @@ gem 'rails_12factor', group: :production
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+gem "pry"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -49,4 +52,3 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
