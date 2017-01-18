@@ -9,3 +9,7 @@ class RegistrationsController < Devise::RegistrationsController
     params.require(:user).permit(:name, :email, :password, :password_confirmation, :age, :weight, :height, :bio, :gender)
   end
 end
+
+
+# Guest account can only leave reviews. Take out email
+# 
