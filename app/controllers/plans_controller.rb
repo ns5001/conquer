@@ -2,9 +2,10 @@ class PlansController < ApplicationController
 
   def new
     @plan = Plan.new
-    @plan.jobs.build
-    @plan.jobs.build
-    @plan.jobs.build
+
+    # @plan.jobs.build
+    # @plan.jobs.build
+    # @plan.jobs.build
 
     @fear = Fear.find_by_id(params[:id])
   end

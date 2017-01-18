@@ -34,7 +34,7 @@ class Plan < ActiveRecord::Base
       end
 
     !(ratings.empty?) ? (sum / ratings.count).round(2) : 0.0
-
+    
   end
 
 
